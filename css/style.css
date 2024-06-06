@@ -45,7 +45,7 @@ ul li{
 /* banner section here */
 .banner-container{
     display: flex;
-    margin: 35px 240px 55px 0px;
+    margin: 35px 240px 0px 0px;
 }
 .banner-content{
     padding: 148px 195px 148px 240px;
@@ -157,6 +157,17 @@ ul li{
     font-weight: 700;
     margin-bottom: 16px;
 }
+.online-game-title span{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+}
 .online-game-description{
     color: rgb(83, 76, 100);
     font-size: 18px;
@@ -170,4 +181,47 @@ ul li{
 }
 .online-img img{
     margin-bottom: 24px;
+}
+/* download section here */
+.download-container{
+    display: flex;
+    margin: 0px 240px 120px 425px;
+}
+.download-content{
+    text-align: right;
+    padding: 216px 0;
+}
+.download-heading{
+    padding-left: 12px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.download-description{
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.download-heading span{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+}
+.download-img img{
+    margin-left: 265px;
+}
+.download-img .image-2{
+    position: relative;
+    margin: 0;
+    bottom: 300px;
+    padding: 0px 150px;
+    
+
 }
