@@ -5,9 +5,21 @@ body {
 }
 /* header section here */
 /* nav section */
-.nav-title .game-logo img{
-    width: 50px;
-    height: 40px;
+.nav-logo-content{
+    display: flex;
+}
+.nav-logo-content img{
+   width: 50%;
+   height: 50%;
+   text-align: bottom;
+   margin-top: 40px;
+}
+.nav-logo-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    height: 53px;
+    margin-left: 20px;
 }
 .nav-container{
     display: flex;
@@ -15,11 +27,7 @@ body {
     margin: 0 240px;
     align-items: center;
 }
-.nav-title{
-    font-size: 45px;
-    font-weight: 700;
-}
-.nav-title span{
+.nav-logo-content span{
     color: #FF42A5FF
 }
 .nav-content{
@@ -185,7 +193,7 @@ ul li{
 /* download section here */
 .download-container{
     display: flex;
-    margin: 0px 240px 120px 425px;
+    margin: 0px 240px 0px 425px;
 }
 .download-content{
     text-align: right;
@@ -222,6 +230,146 @@ ul li{
     margin: 0;
     bottom: 300px;
     padding: 0px 150px;
-    
+}
+/* another download section here */
+.another-download-container{
+    display: flex;
+    margin: 0px 240px;
+}
+.another-download-img .another-download-img2{
+    bottom: 200px;
+    position: relative;
+    margin: 0;
+    left: 528px;
+}
+.another-download-container #another-download2{
+    margin-left: 250px;
+    text-align: left;
+}
+/* carrer section here */
+.carrer-container{
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    padding: 120px 0px 0px 240px;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+.carrer-content{
+    margin-right: 90px;
+}
+.carrer-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.carrer-description{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.carrer-desc1, .cr-des{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.cr-des{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.btn-third{
+    color: rgb(255, 66, 165);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: rgb(255, 255, 255);
+    border: 0;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+/* game logo section */
+.game-logo-container{
+    display: flex;
+    padding: 120px 240px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    justify-content: center;
+}
+.game-logo{
+    display: flex; 
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-right: 50px;
+    margin-bottom: 28px;
+}
+.game-logo-container .game-logo{
+    text-align: center;
+}
+.game-logo-head{
+    color: rgb(11, 2, 35);
+    font-size: 20px;
+    font-weight: 600;   
+}
+/* footer section here */
+footer{
+    background: rgb(11, 2, 35);
+    text-align: center;
+    padding: 120px 550px;
+}
+.footer-logo-content{
+    display: flex;
+    padding: 120px 400px 55px;
+}
 
+ .footer-logo-content h2{
+     font-size: 45px;
+     font-weight: 700;
+     display: flex;
+     height: 53px;
+     margin-left: 20px;
+ }
+ .footer-logo-game span{
+   color: rgb(255, 66, 165);
+}
+.footer-logo-content img{
+    width: 50%;
+    height: 50%;
+    text-align: bottom;
+    margin-top: 40px;
+}
+.footer-logo-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.footer-logo img{
+    margin-right: 40px;
+}
+.footer-para{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.footer-para2{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 70px;
+    margin-top: 65px;
+    margin-bottom: 0;
 }
